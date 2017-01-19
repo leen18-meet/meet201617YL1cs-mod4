@@ -35,10 +35,10 @@ class MyStr (str): #<-----Replace xyz-make a new class, MyStr, that inherits fro
 
         :returns: a new string with replacement complete
         """
-        test=self.lower()
-        return test.replace(take_out.lower(),use_this)
+        
         #################
         #Make this method work in the way described in
+
         #the block comment above.
         #Hints:
         # 1. Remember that self is a MyStr object,
@@ -51,4 +51,7 @@ class MyStr (str): #<-----Replace xyz-make a new class, MyStr, that inherits fro
         #       do this in as little as 1 line.
         #YOUR CODE BELOW:
         #################
+
+        str_lower_case =self.lower()
+        return str_lower_case.replace(take_out.lower(),use_this)
         
